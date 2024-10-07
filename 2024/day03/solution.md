@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/6566aaeb-52a1-46fa-819b-dc150bf56342)
 # Basic Linux Commands - Day 3
 
 Task 1: View the content of a file and display line numbers.
