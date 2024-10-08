@@ -8,9 +8,11 @@ Task 1: Explain in your own words and with examples what Shell Scripting means f
 Task 2: What is `#!/bin/bash`? Can we write `#!/bin/sh` as well?
 - Yes, you can! But here’s what to keep in mind:
 
-Portability: If you need to write a script that works across many different Unix systems (Linux, macOS, etc.), #!/bin/sh is safer because it's more widely supported.
+  Portability: If you need to write a script that works across many different Unix systems (Linux, macOS, etc.),
+  #!/bin/sh is safer because it's more widely supported.
 
-Features: If you use #!/bin/sh, you may have to avoid some of the cool, advanced features of Bash. If your script requires those features, stick with #!/bin/bash.
+  Features: If you use #!/bin/sh, you may have to avoid some of the cool, advanced features of Bash. If your script
+  requires those features, stick with #!/bin/bash.
 
 
 Task 3: Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
