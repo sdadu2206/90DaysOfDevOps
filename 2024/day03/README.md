@@ -15,6 +15,6 @@ Task: What are the Linux commands to
 11. Find and display the lines that are common between `fruits.txt` and `Colors.txt`.
 12. Count the number of lines, words, and characters in both `fruits.txt` and `Colors.txt`.
 
-Reference: [Linux Commands for DevOps Used Day-to-Day](https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/)
+Reference: [Basic Linux Commands](https://drops.hashnode.dev/day-3-task-basic-linux-commands-with-a-twist )
 
 [← Previous Day](../day02/README.md) | [Next Day →](../day04/README.md)
