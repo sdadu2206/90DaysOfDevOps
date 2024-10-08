@@ -24,7 +24,7 @@ Linux shell scripting involves writing programs (scripts) that can be run by a L
 
 These tasks are designed to introduce you to basic concepts of Linux shell scripting for DevOps. Share your experience and solutions on LinkedIn and let me know how it went! :)
 
-**Article Reference:** [Click here to read basic Linux Shell Scripting](https://devopscube.com/linux-shell-scripting-for-devops/)
+**Article Reference:** [Click here to read basic Linux Shell Scripting](https://drops.hashnode.dev/day-4-linux-scripting-essentials-for-aspiring-devops-engineers)
 
 **YouTube Video:** [EASIEST Shell Scripting Tutorial for DevOps Engineers](https://www.youtube.com/watch?v=_-D6gkRj7xc&list=PLlfy9GnSVerQr-Se9JRE_tZJk3OUoHCkh&index=3)
 
