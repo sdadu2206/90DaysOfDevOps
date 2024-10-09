@@ -39,4 +39,4 @@
    
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day05/image/task%204.png?raw=true)
 
-[LinkedIn](https://www.linkedin.com/in/sdadu2206/).
+[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
