@@ -14,38 +14,42 @@
    - Task: Change the user permissions of the file and note the changes after running `ls -ltr`.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task1.png?raw=true)
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task1-1.png?raw=true)
 
 
-2. **Writing an Article:**
+3. **Writing an Article:**
    - Write an article about file permissions based on your understanding from the notes.
 
    **Answer**
 
     Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_file-permissions-access-control-day-6-activity-7250210896835219456-nmqV?utm_source=share&utm_medium=member_desktop)
 
-3. **Access Control Lists (ACL):**
+4. **Access Control Lists (ACL):**
    - Read about ACL and try out the commands `getfacl` and `setfacl`.
    - Task: Create a directory and set specific ACL permissions for different users and groups. Verify the permissions using `getfacl`.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task3.png?raw=true)
 
-4. **Additional Tasks:**
+6. **Additional Tasks:**
    - **Task:** Create a script that changes the permissions of multiple files in a directory based on user input.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task4.png?raw=true)
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task4-1.png?raw=true)
 
    - **Task:** Write a script that sets ACL permissions for a user on a given file, based on user input.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task4-2.png?raw=true)
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task4-2-1.png?raw=true)
 
-5. **Understanding Sticky Bit, SUID, and SGID:**
+8. **Understanding Sticky Bit, SUID, and SGID:**
    - Read about sticky bit, SUID, and SGID.
      - Sticky bit: Used on directories to prevent users from deleting files they do not own.
      - SUID (Set User ID): Allows users to run an executable with the permissions of the executable's owner.
@@ -53,6 +57,7 @@
    - Task: Create examples demonstrating the use of sticky bit, SUID, and SGID, and explain their significance.
 
    **Answer**
+   
      - Sticky bit:
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task5.png?raw=true)
      - SUID:
@@ -60,15 +65,17 @@
      - SGID:
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task5-2.png?raw=true)
 
-6. **Backup and Restore Permissions:**
+10. **Backup and Restore Permissions:**
    - Task: Create a script that backs up the current permissions of files in a directory to a file.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task6.png?raw=true)
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task6-1.png?raw=true)
 
    - Task: Create another script that restores the permissions from the backup file.
 
    **Answer**
+   
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task6-2.png?raw=true)
    ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day06/image/task6-2-1.png?raw=true)
