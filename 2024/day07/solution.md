@@ -9,63 +9,63 @@
      - **Install Docker**
        - Update the package list and install dependencies:
          ```bash
-            sudo apt update
-            sudo apt install apt-transport-https ca-certificates curl software-properties-common 
+         sudo apt update
+         sudo apt install apt-transport-https ca-certificates curl software-properties-common 
        - Add Docker’s official GPG key:
          ```bash
-             curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
         
        - Set up the Docker stable repository::
          ```bash
-             echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+         echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
        - Update the package list again:
          ```bash
-            sudo apt update
+         sudo apt update
        - Install Docker:
          ```bash
-            sudo apt install docker-ce
+         sudo apt install docker-ce
        - Check Docker installation:
          ```bash
-            sudo systemctl status docker
+         sudo systemctl status docker
        - Verify the Docker installation:
          ```bash
-            docker --version
+         docker --version
 
      - **Install Jenkins**
        - Note:
          - First, check whether JAVA is installed or not.
            ```bash
-              java --version
+           java --version
          - If you have not installed
            ```bash
-              sudo apt install openjdk-11-jdk
+           sudo apt install openjdk-11-jdk
        - Add Jenkins repository key:
          ```bash
-             curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
-                   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+         curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+         /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
        - Add Jenkins apt repository:
          ```bash
-             echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-              https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-                /etc/apt/sources.list.d/jenkins.list > /dev/null
+         echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+         https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+         /etc/apt/sources.list.d/jenkins.list > /dev/null
 
        - Update the package list:
          ```bash
-            sudo apt update
+         sudo apt update
        - Install Jenkins:
          ```bash
-            sudo apt install jenkins
+         sudo apt install jenkins
        - Start Jenkins:
          ```bash
-            sudo systemctl start jenkins
+         sudo systemctl start jenkins
        - Enable Jenkins to start on boot:
          ```bash
-             sudo systemctl enable jenkins
+         sudo systemctl enable jenkins
        - Verify Jenkins is running:
          ```bash
-             sudo systemctl status jenkins
+         sudo systemctl status jenkins
 
    Output
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
