@@ -6,50 +6,66 @@
    - Install Docker and Jenkins on your system from your terminal using package managers.
 
    **Answer**
-     - **First-Installing Docker**
-       - Update the package list and install required packages:
+     - **Install Docker**
+       - Update the package list and install dependencies:
          ```bash
-            sudo apt update
-            sudo apt install apt-transport-https ca-certificates curl software-properties-common 
+         sudo apt update
+         sudo apt install apt-transport-https ca-certificates curl software-properties-common 
        - Add Docker’s official GPG key:
          ```bash
-            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -          
-       - Add the Docker APT repository:
+         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+        
+       - Set up the Docker stable repository::
          ```bash
-            sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+         echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
        - Update the package list again:
          ```bash
-            sudo apt update
+         sudo apt update
        - Install Docker:
          ```bash
-            sudo apt install docker-ce
+         sudo apt install docker-ce
        - Check Docker installation:
          ```bash
-            sudo systemctl status docker
+         sudo systemctl status docker
+       - Verify the Docker installation:
+         ```bash
+         docker --version
 
-     - **Installing Jenkins**
-       - Add the Jenkins repository key to the system:
-         ```bash
-            curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-       - Add the Jenkins repository:
-         ```bash
-            sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-       - Update the package list:
-         ```bash
-            sudo apt update
-       - Install Jenkins:
-         ```bash
-            sudo apt install jenkins
-       - Start Jenkins:
-         ```bash
-            sudo systemctl start jenkins
+     - **Install Jenkins**
        - Note:
          - First, check whether JAVA is installed or not.
            ```bash
-              java -version
+           java --version
          - If you have not installed
            ```bash
-              sudo apt install default-jre
+           sudo apt install fontconfig openjdk-17-jre
+       - Add Jenkins repository key:
+         ```bash
+         sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+         https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+
+       - Add Jenkins apt repository:
+         ```bash
+         echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+         https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+         /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+       - Update the package list:
+         ```bash
+         sudo apt update
+       - Install Jenkins:
+         ```bash
+         sudo apt-get install jenkins
+       - Start Jenkins:
+         ```bash
+         sudo systemctl start jenkins
+       - Enable Jenkins to start on boot:
+         ```bash
+         sudo systemctl enable jenkins
+       - Verify Jenkins is running:
+         ```bash
+         sudo systemctl status jenkins
 
    Output
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
@@ -61,17 +77,8 @@
    - Write a small blog or article on how to install these tools using package managers on Ubuntu and CentOS.
 
    **Answer**
-   1. Introduction:
-      - Briefly introduce Docker and Jenkins.
-      - Mention the operating systems (Ubuntu and CentOS) covered.
-   2. Installing Docker on Ubuntu:
-      - List the steps as detailed above.
-   3. Installing Docker on CentOS:
-      - Provide similar steps adjusted for CentOS.
-   4. Installing Jenkins on Ubuntu:
-      - List the steps as detailed above.
-   5. Installing Jenkins on CentOS:
-      - Provide similar steps adjusted for CentOS.
+
+   Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
 
 ### Systemctl and Systemd
 
@@ -96,6 +103,9 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Example: `systemctl status docker` vs. `service docker status`.
 
    **Answer**
+
+   Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
+   
     - Understanding the `systemctl` and `service` Commands
       - Both `systemctl` and `service` commands are used to manage system services in Linux, but they differ in terms of usage, functionality, and the system architectures they support.
       - **`systemctl` Command**
