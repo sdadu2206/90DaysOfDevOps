@@ -144,6 +144,8 @@ Systemctl is used to examine and control the state of the “systemd” system a
         - 3 Syntax and Usage:
           - `systemctl` uses a more unified syntax for managing services.
           - `service` has a simpler and more traditional syntax.
+         
+Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
 
 ### Additional Tasks
 
