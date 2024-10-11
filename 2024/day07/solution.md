@@ -77,17 +77,8 @@
    - Write a small blog or article on how to install these tools using package managers on Ubuntu and CentOS.
 
    **Answer**
-   1. Introduction:
-      - Briefly introduce Docker and Jenkins.
-      - Mention the operating systems (Ubuntu and CentOS) covered.
-   2. Installing Docker on Ubuntu:
-      - List the steps as detailed above.
-   3. Installing Docker on CentOS:
-      - Provide similar steps adjusted for CentOS.
-   4. Installing Jenkins on Ubuntu:
-      - List the steps as detailed above.
-   5. Installing Jenkins on CentOS:
-      - Provide similar steps adjusted for CentOS.
+
+   Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
 
 ### Systemctl and Systemd
 
