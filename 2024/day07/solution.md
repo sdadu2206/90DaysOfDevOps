@@ -103,6 +103,9 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Example: `systemctl status docker` vs. `service docker status`.
 
    **Answer**
+
+   Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
+   
     - Understanding the `systemctl` and `service` Commands
       - Both `systemctl` and `service` commands are used to manage system services in Linux, but they differ in terms of usage, functionality, and the system architectures they support.
       - **`systemctl` Command**
@@ -144,8 +147,6 @@ Systemctl is used to examine and control the state of the “systemd” system a
         - 3 Syntax and Usage:
           - `systemctl` uses a more unified syntax for managing services.
           - `service` has a simpler and more traditional syntax.
-         
-Check out my article: [LinkedIn](https://www.linkedin.com/posts/sdadu2206_day-7-task-package-manager-systemctl-activity-7250573240853520384-liuT?utm_source=share&utm_medium=member_desktop)
 
 ### Additional Tasks
 
