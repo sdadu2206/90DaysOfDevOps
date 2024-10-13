@@ -21,7 +21,7 @@
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task2.png)  
       - Auto scheduling through `crontab job scheduling`:
         ```bash
-           0 */2 * * * </path/to/backup_script.sh> </path/to/directory>
+           0 */2 * * * /root/Scripts/backup_with_rotation.sh /root/Scripts
 
    **It will take a backup every hour, and the oldest backups will be deleted, leaving only the latest three backups visible:**  
    
