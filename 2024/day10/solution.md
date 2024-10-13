@@ -24,21 +24,21 @@ Write a Bash script that automates the process of analyzing log files and genera
    - Top 5 error messages with their occurrence count
    - List of critical events with line numbers
 
+6. **Optional Enhancement:** Add a feature to automatically archive or move processed log files to a designated directory after analysis.
+
    <h2>Answer</h2>
 
    - **First created a folder and then a log file.**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/task1.png)
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day10/image/task1.png?raw=true)
 
    - **Bash Code for Reference.**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/task2.png)
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day10/image/task2.png?raw=true)
 
    - <h2>Output</h2>
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day10/image/output.png)
-
-6. **Optional Enhancement:** Add a feature to automatically archive or move processed log files to a designated directory after analysis.
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day10/image/output.png?raw=true)
 
 ## Tips
 
@@ -48,6 +48,6 @@ Write a Bash script that automates the process of analyzing log files and genera
 
 ## Sample Log File
 
-A sample log file named `sample_log.log` has been provided in the same directory as this challenge file. You can use this file to test your script or use [this](https://github.com/logpai/loghub/blob/master/Zookeeper/Zookeeper_2k.log)
+A sample log file named `sample_log.log` has been provided in the same directory as this challenge file. You can use this file to test your script [Sample log file](https://github.com/logpai/loghub/blob/master/Zookeeper/Zookeeper_2k.log)
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
