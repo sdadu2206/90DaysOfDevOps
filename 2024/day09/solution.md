@@ -12,7 +12,7 @@
 
    **Answer**
 
-   **Create Some File for backup purpose**
+   **Create Some Files to backup, For example:**
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task11.png)
 
