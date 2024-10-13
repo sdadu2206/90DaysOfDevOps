@@ -14,22 +14,22 @@
 
    **Create Some Files to backup, For example:**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task11.png)
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png?raw=true)
 
    **Crontab Job Scheduling:**  
    
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task2.png)  
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day09/image/task1-2.png?raw=true)  
       - Auto scheduling through `crontab job scheduling`:
         ```bash
            0 */2 * * * /root/Scripts/backup_with_rotation.sh /root/Scripts
 
    **It will take a backup every two hours, and the oldest backups will be deleted, leaving only the latest three backups visible:**  
    
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/task3.png)  
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day09/image/task2.png?raw=true)  
 
    **Bash Script:**
    
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day09/image/bash1.png)
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day09/image/task3.png?raw=true)
 
    **Reference**  
    [TrainWithShubham - Production Backup Rotation | Shell Scripting For DevOps Engineer](https://youtu.be/PZYJ33bMXAw?si=Zb50P67x_F32ikeO)   
