@@ -17,7 +17,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
 
 ### Ubuntu Installation
    - `sudo apt-get update`
-   - `sudo apt-get install python3.6`
+   - `sudo apt-get install python3`
 
 ### macOS Installation
 
@@ -50,7 +50,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
 
       - **Sequence Types:**
          - **str:** String values
-            - `name = "bhavin"`
+            - `name = "syed"`
 
          - **list:** Ordered collection of items
             - `fruits = ["apple", "banana", "cherry"]`
@@ -60,7 +60,7 @@ Python is an open-source, general-purpose, high-level, and object-oriented progr
 
    - **Mapping Types:**
       - **dict:** Key-value pairs
-         - `person = {"name": "bhavin", "age": 24}`
+         - `person = {"name": "syed", "age": 24}`
 
    - **Set Types:**
       - **set:** Unordered collection of unique items
@@ -82,4 +82,4 @@ You can get the complete playlist [here](https://www.youtube.com/watch?v=abPgj_3
 
 **Happy Learning, Ruko Mat Phod do! 😃**
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
