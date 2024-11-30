@@ -12,49 +12,49 @@ As you have already installed Docker in previous tasks, now is the time to run D
 
 **Answer**
    - This command runs the `hello-world` image, which prints a message confirming that Docker is working correctly.
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/1_Start_a_New_Container.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/1_Start_a_New_Container.png?raw=true)
 
 ### 2. Use the `docker inspect` command to view detailed information about a container or image.
 
 **Answer**
    - View Detailed Information About a Container or Image:
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/2_docker_inspect.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/2_docker_inspect.png?raw=true)
 
 ### 3. Use the `docker port` command to list the port mappings for a container.
 
 **Answer**
    - This command maps port 8081 on the host to port 81 in the container and lists the port mappings.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/3_docker_port.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/3_docker_port.png?raw=true)
 
 ### 4. Use the `docker stats` command to view resource usage statistics for one or more containers.
 
 **Answer**
    - This command provides a live stream of resource usage statistics for all running containers.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/4_docker_stats.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/4_docker_stats.png?raw=true)
 
 ### 5. Use the `docker top` command to view the processes running inside a container.
 
 **Answer**
    - This command lists the processes running inside the `my_container` container.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/5_docker_top.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/5_docker_top.png?raw=true)
 
 ### 6. Use the `docker save` command to save an image to a tar archive.
 
 **Answer**
    - This command saves the `nginx` image to a tar archive named `myimage.tar`.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/6_docker_save.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/6_docker_save.png?raw=true)
 
 ### 7. Use the `docker load` command to load an image from a tar archive.
 
 **Answer**
    - This command loads the image from the `myimage.tar` archive into Docker.
 
-![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/7_docker_load.png)
+![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day16/image/7_docker_load.png?raw=true)
 
 These tasks involve simple operations that can be used to manage images and containers.
 
