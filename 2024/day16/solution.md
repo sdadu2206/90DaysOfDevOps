@@ -24,7 +24,7 @@ As you have already installed Docker in previous tasks, now is the time to run D
 ### 3. Use the `docker port` command to list the port mappings for a container.
 
 **Answer**
-   - This command maps port 8181 on the host to port 82 in the container and lists the port mappings.
+   - This command maps port 8081 on the host to port 81 in the container and lists the port mappings.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/3_docker_port.png)
 
@@ -38,21 +38,21 @@ As you have already installed Docker in previous tasks, now is the time to run D
 ### 5. Use the `docker top` command to view the processes running inside a container.
 
 **Answer**
-   - This command lists the processes running inside the `my_container2` container.
+   - This command lists the processes running inside the `my_container` container.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/5_docker_top.png)
 
 ### 6. Use the `docker save` command to save an image to a tar archive.
 
 **Answer**
-   - This command saves the `nginx` image to a tar archive named `my_image.tar`.
+   - This command saves the `nginx` image to a tar archive named `myimage.tar`.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/6_docker_save.png)
 
 ### 7. Use the `docker load` command to load an image from a tar archive.
 
 **Answer**
-   - This command loads the image from the `my_image.tar` archive into Docker.
+   - This command loads the image from the `myimage.tar` archive into Docker.
 
 ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day16/image/7_docker_load.png)
 
@@ -60,4 +60,4 @@ These tasks involve simple operations that can be used to manage images and cont
 
 For reference, you can watch this video: [Docker Tutorial on AWS EC2 as DevOps Engineer // DevOps Project Bootcamp Day 2](https://youtu.be/Tevxhn6Odc8).
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
