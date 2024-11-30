@@ -82,4 +82,4 @@ You can get the complete playlist [here](https://www.youtube.com/watch?v=abPgj_3
 
 **Happy Learning, Ruko Mat Phod do! 😃**
 
-[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_python-basics-for-devops-engineers-activity-7266892489154785281-jGtV?utm_source=share&utm_medium=member_desktop)
