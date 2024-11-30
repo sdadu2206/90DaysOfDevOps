@@ -60,4 +60,4 @@ These tasks involve simple operations that can be used to manage images and cont
 
 For reference, you can watch this video: [Docker Tutorial on AWS EC2 as DevOps Engineer // DevOps Project Bootcamp Day 2](https://youtu.be/Tevxhn6Odc8).
 
-[LinkedIn](https://www.linkedin.com/in/sdadu2206/)
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_docker-devops-day-16-tutorial-activity-7268630753310052352-ZEmN?utm_source=share&utm_medium=member_desktop)
