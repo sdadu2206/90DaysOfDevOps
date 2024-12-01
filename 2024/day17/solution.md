@@ -18,47 +18,47 @@ For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/1_Create_a_new_directory.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/1_Create_a_new_directory.png?raw=true)
 
       - Create a new file named `app.py` and add the following content:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/2_app_py.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/2_app_py.png?raw=true)
 
       - Create a requirements file named `requirements.txt` and add the following content:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/3_Create_a_requirements_file.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/3_Create_a_requirements_file.png?raw=true)
 
    - **2. Create a Dockerfile**
       - Create a file named `Dockerfile` in the same directory and add the following content:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/4_Create_a_Dockerfile.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/4_Create_a_Dockerfile.png?raw=true)
 
 **2. Build the image using the Dockerfile and run the container**
    - To build the Docker image, run the following command in the directory containing the Dockerfile:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/5_build_the_docker_image.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/5_build_the_docker_image.png?raw=true)
 
    - Run the Container
       - To run the container, use the following command:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/6_Run_the_Container.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/6_Run_the_Container.png?raw=true)
 
 **3. Verify that the application is working as expected by accessing it in a web browser**
    - Open your web browser and navigate to `http://localhost:5000`. You should see the message "Hello, World!".
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/7_Verify_the_Application.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/7_Verify_the_Application.png?raw=true)
 
 **4. Push the image to a public or private repository (e.g. Docker Hub)**
    - To push the image to Docker Hub, you need to tag it with your Docker Hub username and repository name, then push it.
@@ -66,13 +66,13 @@ For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/8_Tag_the_Image.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/8_Tag_the_Image.png?raw=true)
 
    - **2. Push the Image**
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/9_Push_the_Image.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/image/9_Push_the_Image.png?raw=true)
 
 For a reference project, visit [here](https://youtu.be/Tevxhn6Odc8).
 
@@ -82,6 +82,6 @@ You can share your learning with everyone over LinkedIn and tag us along. 😃
 
 Happy Learning :)
 
-[Code for Reference](https://raw.githubusercontent.com/Bhavin213/90DaysOfDevOps/master/2024/day17/code.txt)
+[Code for Reference](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/code.txt)
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn]()
