@@ -84,4 +84,4 @@ Happy Learning :)
 
 [Code for Reference](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day17/code.txt)
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_docker-project-day-17-devops-task-activity-7268995308586459138-QpkM?utm_source=share&utm_medium=member_desktop)
