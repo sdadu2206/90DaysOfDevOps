@@ -105,4 +105,4 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
 For reference, you can watch this [video](https://youtu.be/Tevxhn6Odc8).
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_docker-compose-day-18-complete-guide-activity-7269328137560219648-r5CH?utm_source=share&utm_medium=member_desktop)
