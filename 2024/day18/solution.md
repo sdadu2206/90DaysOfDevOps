@@ -25,7 +25,7 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
    **Answer**
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png)
+   ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/1_docker_compose_yml_file.png?raw=true)
 
 ## Task 2
    
@@ -34,59 +34,59 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/2_Pull_the_Docker_image.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/2_Pull_the_Docker_image.png?raw=true)
 
       - Add the current user to the Docker group:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png?raw=true)
 
       - Reboot the machine to apply the changes:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png?raw=true)
 
       - Run the Docker container:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/5_Run_the_Docker_container.png)      
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/5_Run_the_Docker_container.png?raw=true)      
 
    - **2. Inspect the container's running processes and exposed ports using the `docker inspect` command.**
       - Inspect the container:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/6_Inspect_the_container.png)      
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/6_Inspect_the_container.png?raw=true)      
 
    - **3. Use the `docker logs` command to view the container's log output.**
       - View the logs:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/7_View_the_logs.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/7_View_the_logs.png?raw=true)
 
    - **4. Use the `docker stop` and `docker start` commands to stop and start the container.**
       - Stop the container:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/8_Stop_the_container.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/8_Stop_the_container.png?raw=true)
 
       - Start the container:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/9_Start_the_container.png)
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/9_Start_the_container.png?raw=true)
 
    - **5. Use the `docker rm` command to remove the container when you're done.**
       - Remove the container:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/10_Remove_the_container.png)      
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/10_Remove_the_container.png?raw=true)      
 
 ## How to Run Docker Commands Without Sudo?
 
@@ -95,14 +95,14 @@ Learn how to use the docker-compose.yml file to set up the environment, configur
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png)      
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/3_Add_the_current_user_to_the_Docker_group.png?raw=true)      
 
    - Reboot the machine.
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png)         
+      ![image](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day18/image/4_Reboot_the_machine_to_apply_the_changes.png?raw=true)         
 
 For reference, you can watch this [video](https://youtu.be/Tevxhn6Odc8).
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/)
+[LinkedIn]()
