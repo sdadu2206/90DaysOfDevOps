@@ -182,5 +182,5 @@ You can set environment variables using the `-e` flag with `docker run` or defin
 
 **Conclusion**
 
-Docker might seem overwhelming at first, but once you understand these core concepts, you’ll be able to answer interview questions with confidence and showcase your knowledge. Whether you’re deploying applications or creating containers, Docker makes it easier to manage apps in the world of DevOps. Good luck with your interviews, and remember: practice makes perfect! 🚀
+Docker might seem overwhelming at first, but once you understand these core concepts, you’ll be able to answer interview questions with confidence and showcase your knowledge. Whether you’re deploying applications or creating containers, Docker makes it easier to manage apps in the world of DevOps. Good luck with your interviews, and remember: practice makes perfect! 
 
