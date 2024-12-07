@@ -71,7 +71,7 @@ This docker-compose.yml file does the following:
 
 - Uses the official Node.js 16 Docker image.
 - Mounts your current project folder to the container’s working directory.
-- Runs npm install and npm start to set up and start your Node.js app.
+- Runs `npm install` and `npm start` to set up and start your Node.js app.
 - Maps port 3000 from your container to the host machine, making the app accessible in the browser.
   
 ### Step 2: Configure Jenkins to Use Docker Compose 🐳
@@ -86,9 +86,10 @@ This will build and start your Node.js app in the background. 🏃‍♂️
 
 ### Step 3: Test Your Pipeline 🔍
 1. Trigger the Jenkins job manually or push a change to your GitHub repository.
-2. Jenkins will pull the latest code from GitHub, build the Docker image, and start the Node.js application using Docker Compose.
+2. Jenkins will pull the latest code from GitHub, build the Docker image, and start the Node.js application using Docker
+   Compose.
 3. Go to your Jenkins dashboard to check the build status.
-4. Once successful, open your browser and go to http://localhost:3000 to see the app in action! 🚀
+4. Once successful, open your browser and go to `http://localhost:3000` to see the app in action! 🚀
 
 ---
 
