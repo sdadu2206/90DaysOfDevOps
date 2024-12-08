@@ -30,11 +30,12 @@
 
 ### Step 3: Set Up GitHub Webhook 🔔
 
-1. Go to your **GitHub repository** and click on **Settings** → **Webhooks** → **Add webhook**.
-2. In the **Payload URL**, enter your Jenkins server’s URL followed by `/github-webhook/` (e.g., `http://your-jenkins-server/github-webhook/`).
-3. Set **Content type** to `application/json`.
-4. Select **Just the push event** for the webhook.
-5. Leave the other settings as default and click **Add webhook**.
+1. Go to your GitHub repo: `Settings → Webhooks → Add webhook`.
+2. Enter the following details:
+   - **Payload URL:** `http://<your-jenkins-server>/github-webhook/`.
+   - **Content type:** `application/json`.
+   - **Event:** Select **Just the push event**.
+   - Leave the other settings as default and click **Add webhook**.
 
 Now, your Jenkins job will trigger automatically on every push to GitHub! 🎉
 
@@ -69,10 +70,11 @@ networks:
 
 This docker-compose.yml file does the following:
 
-- Uses the official Node.js 16 Docker image.
-- Mounts your current project folder to the container’s working directory.
-- Runs `npm install` and `npm start` to set up and start your Node.js app.
-- Maps port 3000 from your container to the host machine, making the app accessible in the browser.
+- Uses Node.js 16 as the base image.
+- Mounts your project folder to the container (/app).
+- Runs npm install && npm start to install dependencies and start the app.
+- Maps port 3000 for browser access.
+- Defines a custom bridge network for container communication.
   
 ### Step 2: Configure Jenkins to Use Docker Compose 🐳
 In your Jenkins job, go to the Build section and click Add Build Step → Execute Shell.
@@ -97,4 +99,4 @@ This will build and start your Node.js app in the background. 🏃‍♂️
 
 Happy coding! 👨‍💻
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_jenkins-cicd-project-to-do-list-activity-7271185324901343233-XHis?utm_source=share&utm_medium=member_desktop)
