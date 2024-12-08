@@ -148,5 +148,5 @@ This project is licensed under the **MIT License**.
 
 By following these steps, you can successfully deploy the Node.js To-Do app with a robust CI/CD pipeline. 🚀
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_90daysofdevops2024day25solutionmd-at-activity-7271348514117316608-MSJA?utm_source=share&utm_medium=member_desktop)
 Project Link: [Node.js To-Do App with CI/CD Pipeline](https://github.com/sdadu2206/90DaysOfDevOps/blob/master/2024/day25/solution.md)
