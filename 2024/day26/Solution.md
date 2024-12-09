@@ -20,6 +20,42 @@ By defining your Jenkins pipeline in a file (called a Jenkinsfile), you get seve
 
 ---
 
+## Pipeline Syntax Explained
+
+Here's the basic syntax for a Jenkins Declarative Pipeline:
+
+```groovy
+pipeline {
+    agent any  // Can run on any available agent
+    stages {    // Collection of stages (jobs)
+        stage('Build') {
+            steps {
+                // Define steps for build (e.g., compile, package, etc.)
+            }
+        }
+        stage('Test') {
+            steps {
+                // Define steps for tests (e.g., unit tests, integration tests)
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Define deployment steps (e.g., push to server, cloud)
+            }
+        }
+    }
+}
+```
+Explanation of Syntax:
+- `pipeline`: Top-level block defining the whole pipeline.
+- `agent any`: Specifies that the pipeline can run on any available Jenkins agent.
+- `stages`: A collection of `stage` blocks, each representing a job in the pipeline.
+  - `stage('Build')`: The first stage where code is compiled or built.
+  - `stage('Test')`: The second stage where tests are executed.
+  - `stage('Deploy')`: The last stage where the code is deployed.
+
+---
+
 ## Task-01: Creating Your First Jenkins Pipeline
 
 Let’s create a Jenkins Pipeline Job using the Declarative pipeline! 🎉
