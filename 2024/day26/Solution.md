@@ -100,4 +100,4 @@ You've just created your first Jenkins pipeline using Declarative syntax! Now yo
 
 ---
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/posts/sdadu2206_jenkins-declarative-pipeline-day-26-guide-activity-7271898125756211200-JAMH?utm_source=share&utm_medium=member_desktop)
